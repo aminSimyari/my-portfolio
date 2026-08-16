@@ -31,4 +31,36 @@
     ],
     "footer": "طراحی‌شده توسط محمدامین سیمیاری | آخرین به‌روزرسانی: 24 مرداد 1405"
   },
- 
+  "en": { 
+    "nav": {
+      "brand": "Amin Simyari",
+      "langToggle": "Fa"
+    },
+    "hero": {
+      "name": "MohammadAmin Simyari",
+      "role": "Frontend developer",
+      "description": "Implementation and development of modern, clean, and optimized user interfaces using Vue.js and Tailwind CSS.",
+      "buttons": {
+        "projects": "Projects",
+        "contact": "Contact"
+      }
+    }, 
+    "sections": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "skillsList": [
+      "JavaScript", "TypeScript", "Vue.js", "HTML5", "tailwindcss", "css", "git", "Vite", "Github"
+    ],
+    "projectsList": [
+      { "id": "map", "title": "Map", "image": "/images/map.png" },
+      { "id": "notebook", "title": "Notebook", "image": "/images/notebook.png" },
+      { "id": "todo", "title": "To Do List", "image": "/images/todo.png" },
+      { "id": "drumkit", "title": "Drumkit", "image": "/images/drumkit.png" },
+      { "id": "clock", "title": "Clock", "image": "/images/clock.png" },
+      { "id": "guess", "title": "Guess My Number", "image": "/images/guess.png" }
+    ],
+    "footer": "Designed by Mohammad Amin Simyari | Last updated: August 15, 2026"
+  }
+}
