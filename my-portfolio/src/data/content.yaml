@@ -76,7 +76,7 @@ en:
     - name: 'JavaScript'
       icon: '/icons/js.svg'
     - name: 'TypeScript'
-      icon: '/icons/typescipt.svg'
+      icon: '/icons/typescript.svg'
     - name: 'Vue.js'
       icon: '/icons/Vue.svg'
     - name: 'HTML5'
