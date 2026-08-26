@@ -1,0 +1,70 @@
+nav:
+  brand: Amin Simyari
+  langToggle: Fa
+
+hero:
+  name: MohammadAmin Simyari
+  role: Frontend Developer
+  description: Implementation and development of modern, clean, and optimized user interfaces using Vue.js and Tailwind CSS.
+  buttons:
+    projects: Projects
+    contact: Contact
+
+sections:
+  skills: Skills
+  projects: Projects
+  contact: Contact
+
+skillsList:
+  - name: JavaScript
+    icon: /icons/js.svg
+  - name: TypeScript
+    icon: /icons/typpescipt.svg
+  - name: Vue.js
+    icon: /icons/Vue.svg
+  - name: HTML5
+    icon: /icons/html icon.svg
+  - name: Tailwind CSS
+    icon: /icons/tailwind.svg
+  - name: CSS3
+    icon: /icons/css.svg
+  - name: Git
+    icon: /icons/git.svg
+  - name: Vite
+    icon: /icons/vite.svg
+  - name: GitHub
+    icon: /icons/github.svg
+
+projectsList:
+  - id: map
+    title: Map
+    image: /images/map.png
+    github: https://github.com/aminSimyari/map
+  - id: notebook
+    title: Notebook
+    image: /images/notebook.png
+    github: https://github.com/aminSimyari/notebook
+  - id: todo
+    title: To Do List
+    image: /images/todo.png
+    github: https://github.com/aminSimyari/todo
+  - id: drumkit
+    title: Drumkit
+    image: /images/drumkit.png
+    github: https://github.com/aminSimyari/drumkit
+  - id: clock
+    title: Clock
+    image: /images/clock.png
+    github: https://github.com/aminSimyari/clock
+  - id: guess
+    title: Guess My Number
+    image: /images/guess.png
+    github: https://github.com/aminSimyari/guess
+
+contactLinks:
+  email: mailto:aminsimyarii@gmail.com
+  emailLabel: aminsimyarii@gmail.com
+  telegram: https://t.me/Amin_smy
+  github: https://github.com/aminSimyari
+
+footer: "Designed by Mohammad Amin Simyari | Last updated: August 2026"
