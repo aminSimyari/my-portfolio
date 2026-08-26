@@ -1,0 +1,70 @@
+nav:
+  brand: امین سیمیاری
+  langToggle: En
+
+hero:
+  name: محمدامین سیمیاری
+  role: برنامه‌نویس فرانت‌اند
+  description: پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با Vue.js و Tailwind CSS.
+  buttons:
+    projects: مشاهده پروژه‌ها
+    contact: ارتباط با من
+
+sections:
+  skills: مهارت‌ها
+  projects: پروژه‌ها
+  contact: ارتباط با من
+
+skillsList:
+  - name: JavaScript
+    icon: /icons/js.svg
+  - name: TypeScript
+    icon: /icons/typpescipt.svg
+  - name: Vue.js
+    icon: /icons/Vue.svg
+  - name: HTML5
+    icon: /icons/html icon.svg
+  - name: Tailwind CSS
+    icon: /icons/tailwind.svg
+  - name: CSS3
+    icon: /icons/css.svg
+  - name: Git
+    icon: /icons/git.svg
+  - name: Vite
+    icon: /icons/vite.svg
+  - name: GitHub
+    icon: /icons/github.svg
+
+projectsList:
+  - id: map
+    title: نقشه
+    image: /images/map.png
+    github: https://github.com/aminSimyari/map
+  - id: notebook
+    title: یادداشت
+    image: /images/notebook.png
+    github: https://github.com/aminSimyari/notebook
+  - id: todo
+    title: To Do
+    image: /images/todo.png
+    github: https://github.com/aminSimyari/todo
+  - id: drumkit
+    title: درام کیت
+    image: /images/drumkit.png
+    github: https://github.com/aminSimyari/drumkit
+  - id: clock
+    title: ساعت
+    image: /images/clock.png
+    github: https://github.com/aminSimyari/clock
+  - id: guess
+    title: حدس شماره
+    image: /images/guess.png
+    github: https://github.com/aminSimyari/guess
+
+contactLinks:
+  email: mailto:aminsimyarii@gmail.com
+  emailLabel: aminsimyarii@gmail.com
+  telegram: https://t.me/Amin_smy
+  github: https://github.com/aminSimyari
+
+footer: "طراحی‌شده توسط محمدامین سیمیاری | آخرین به‌روزرسانی: ۲۰۲۶"
