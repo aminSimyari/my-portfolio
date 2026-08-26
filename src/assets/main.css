@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #35495e;
+  --text-primary: #000000;
+  --text-secondary: #1e293b;
+  --text-muted: #64748b;
+  --bg-page: #ffffff;
+  --bg-secondary: #f1f5f9;
+  --bg-navbar: #ffffff;
+  --section-bg: transparent;
+  --button-bg: #475569;
+  --contact-bg: #475569;
+  --hero-role-color: #475569;
+  --font-family-base: 'Vazirmatn', sans-serif;
+  --font-family-heading: 'Inter', sans-serif;
+  --border-color: rgba(0, 0, 0, 0.1);
+}
+
+html.dark {
+  --text-primary: #e0e0e0;
+  --text-secondary: #e0e0e0;
+  --text-muted: #e0e0e089;
+  --bg-page: #1e1e1e;
+  --bg-secondary: #292929;
+  --bg-navbar: #1e1e1e;
+  --section-bg: transparent;
+  --button-bg: #292929;
+  --contact-bg: #292929;
+  --hero-role-color: #e0e0e0;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+html[dir='rtl'] {
+  direction: rtl;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+html[dir='ltr'] {
+  direction: ltr;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
