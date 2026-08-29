@@ -5,7 +5,7 @@ nav:
 hero:
   name: محمدامین سیمیاری
   role: برنامه‌نویس فرانت‌اند
-  description: پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با Vue.js و Tailwind CSS.
+  description: .Vue.js و Tailwind CSS پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با
   buttons:
     projects: مشاهده پروژه‌ها
     contact: ارتباط با من
@@ -67,4 +67,4 @@ contactLinks:
   telegram: https://t.me/Amin_smy
   github: https://github.com/aminSimyari
 
-footer: "طراحی‌شده توسط محمدامین سیمیاری | آخرین به‌روزرسانی: ۲۰۲۶"
+footer: 'طراحی‌شده توسط محمدامین سیمیاری | آخرین به‌روزرسانی: ۲۰۲۶'
