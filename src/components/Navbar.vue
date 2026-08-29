@@ -21,6 +21,9 @@
             :src="isDark ? '/icons/Sun.svg' : '/icons/Moon.svg'"
             alt=""
             class="toggle-icon"
+            width="16"
+            height="16"
+            decoding="async"
           />
         </button>
       </div>
