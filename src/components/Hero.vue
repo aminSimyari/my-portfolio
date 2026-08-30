@@ -92,7 +92,7 @@ const avatarSrc = '/images/avatar.jpg'
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 32px;
+  margin-top: 100px;
 }
 
 .btn {
