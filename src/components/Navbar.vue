@@ -59,7 +59,7 @@ const { content, isDark, toggleTheme, toggleLanguage } = usePortfolio()
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 16px;
   color: var(--text-primary);
   text-decoration: none;
 }
@@ -83,7 +83,7 @@ const { content, isDark, toggleTheme, toggleLanguage } = usePortfolio()
 .lang-toggle {
   width: auto;
   padding: 0 10px;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   color: #ffffff;
 }
