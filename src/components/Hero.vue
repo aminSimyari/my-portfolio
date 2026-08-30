@@ -34,7 +34,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content, isRtl } = usePortfolio()
-const avatarSrc = '/images/avatar.jpg'
+const avatarSrc = '/images/avatar.webp'
 </script>
 
 <style scoped>
@@ -68,7 +68,7 @@ const avatarSrc = '/images/avatar.jpg'
 }
 
 .hero-name {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 800;
   color: var(--text-primary);
   margin-bottom: 6px;
@@ -76,14 +76,14 @@ const avatarSrc = '/images/avatar.jpg'
 }
 
 .hero-role {
-  font-size: 0.9375rem;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
 }
 
 .hero-description {
-  font-size: 0.8rem;
+  font-size: 13px;
   color: var(--text-primary);
   line-height: 1.6;
 }
@@ -102,7 +102,7 @@ const avatarSrc = '/images/avatar.jpg'
   min-width: 130px;
   padding: 9px 24px;
   border-radius: 999px;
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 600;
   color: #ffffff;
   background-color: var(--button-bg);
@@ -143,15 +143,15 @@ const avatarSrc = '/images/avatar.jpg'
   }
 
   .hero-name {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .hero-role {
-    font-size: 1.0625rem;
+    font-size: 17px;
   }
 
   .hero-description {
-    font-size: 0.85rem;
+    font-size: 14px;
   }
 
   .hero-buttons {
@@ -161,7 +161,7 @@ const avatarSrc = '/images/avatar.jpg'
 
   .btn {
     padding: 10px 24px;
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   .hero-avatar {
