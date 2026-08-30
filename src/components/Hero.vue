@@ -34,7 +34,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content, isRtl } = usePortfolio()
-const avatarSrc = '/images/avatar.webp'
+const avatarSrc = '/images/avatar.jpg'
 </script>
 
 <style scoped>
