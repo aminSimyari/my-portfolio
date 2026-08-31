@@ -1,12 +1,7 @@
 import { ref, computed, watch } from 'vue'
+import { fetchContent } from '@/api/portfolio'
 import contentEn from './content.en.yml'
 import contentFa from './content.fa.yml'
-
-const en = contentEn as unknown as ContentData
-const fa = contentFa as unknown as ContentData
-
-export type Language = 'en' | 'fa'
-export type Theme = 'light' | 'dark'
 
 export interface NavLink {
   label: string
@@ -59,6 +54,12 @@ export interface ContentData {
   footer: string
 }
 
+export type Language = 'en' | 'fa'
+export type Theme = 'light' | 'dark'
+
+const en = contentEn as unknown as ContentData
+const fa = contentFa as unknown as ContentData
+
 const LANG_KEY = 'portfolio-lang'
 const THEME_KEY = 'portfolio-theme'
 
@@ -69,11 +70,26 @@ function stored<T extends string>(key: string, valid: readonly T[], fallback: T)
 
 const language = ref<Language>(stored(LANG_KEY, ['en', 'fa'], 'fa'))
 const theme = ref<Theme>(stored(THEME_KEY, ['light', 'dark'], 'light'))
-
-const content = computed<ContentData>(() => (language.value === 'en' ? en : fa))
+const loading = ref(false)
+const error = ref<string | null>(null)
+const content = ref<ContentData>(language.value === 'en' ? en : fa)
 
 const isRtl = computed(() => language.value === 'fa')
 const isDark = computed(() => theme.value === 'dark')
+
+async function loadContent(lang: Language) {
+  loading.value = true
+  error.value = null
+  try {
+    const data = await fetchContent(lang)
+    content.value = data
+  } catch {
+    content.value = lang === 'en' ? en : fa
+    error.value = 'Could not load content'
+  } finally {
+    loading.value = false
+  }
+}
 
 function toggleLanguage() {
   language.value = language.value === 'en' ? 'fa' : 'en'
@@ -97,6 +113,7 @@ function syncDom(dir: 'rtl' | 'ltr', lang: Language) {
 watch(language, (v) => {
   localStorage.setItem(LANG_KEY, v)
   syncDom(v === 'fa' ? 'rtl' : 'ltr', v)
+  loadContent(v)
 })
 
 watch(theme, (v) => {
@@ -112,6 +129,8 @@ export function usePortfolio() {
     language,
     theme,
     content,
+    loading,
+    error,
     isRtl,
     isDark,
     toggleLanguage,
