@@ -165,8 +165,8 @@ const avatarSrc = '/images/avatar.jpg'
   }
 
   .hero-avatar {
-    width: 200.5px;
-    height: 200.97px;
+    width: 200px;
+    height: 200px;
   }
 }
 </style>
