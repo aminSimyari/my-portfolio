@@ -2,11 +2,6 @@ import { ref, computed, watch } from 'vue'
 import contentEn from './content.en.yml'
 import contentFa from './content.fa.yml'
 
-export interface NavLink {
-  label: string
-  href: string
-}
-
 export interface HeroButtons {
   projects: string
   contact: string

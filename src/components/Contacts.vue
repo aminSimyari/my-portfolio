@@ -107,7 +107,7 @@ const githubIcon = '/icons/github f.svg'
   width: 100px;
   height: 45px;
   border-radius: 24px;
-  background-color: #475569;
+  background-color: var(--button-bg);
   text-decoration: none;
   cursor: pointer;
 }
