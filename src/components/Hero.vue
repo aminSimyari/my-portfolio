@@ -80,6 +80,7 @@ const avatarSrc = '/images/avatar.jpg'
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
+  unicode-bidi: plaintext;
 }
 
 .hero-description {

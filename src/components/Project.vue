@@ -4,7 +4,14 @@
       <h2 class="section-title">{{ content.sections.projects }}</h2>
 
       <div class="projects-list">
-        <article v-for="project in content.projectsList" :key="project.id" class="project-item">
+        <a
+          v-for="project in content.projectsList"
+          :key="project.id"
+          href="https://github.com/aminSimyari"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-item"
+        >
           <h3 class="project-title">{{ project.title }}</h3>
           <div class="project-image">
             <img
@@ -14,7 +21,7 @@
               decoding="async"
             />
           </div>
-        </article>
+        </a>
       </div>
     </div>
   </section>
@@ -56,6 +63,13 @@ const { content } = usePortfolio()
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
 }
 
 .project-title {

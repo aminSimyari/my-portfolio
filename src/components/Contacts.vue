@@ -42,6 +42,8 @@
 
         <a
           :href="content.contactLinks.email"
+          target="_blank"
+          rel="noopener noreferrer"
           class="contact-item"
           :aria-label="content.contactLinks.emailLabel"
         >
