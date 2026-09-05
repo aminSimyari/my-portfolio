@@ -51,8 +51,8 @@ export interface ContentData {
 export type Language = 'en' | 'fa'
 export type Theme = 'light' | 'dark'
 
-const en = contentEn as unknown as ContentData
-const fa = contentFa as unknown as ContentData
+const en = contentEn as ContentData
+const fa = contentFa as ContentData
 
 const LANG_KEY = 'portfolio-lang'
 const THEME_KEY = 'portfolio-theme'
@@ -75,6 +75,7 @@ function loadContent(lang: Language) {
 
 function toggleLanguage() {
   language.value = language.value === 'en' ? 'fa' : 'en'
+  loadContent(language.value)
 }
 
 function toggleTheme() {
@@ -82,9 +83,8 @@ function toggleTheme() {
 }
 
 function applyTheme(t: Theme) {
-  const el = document.documentElement
-  el.setAttribute('data-theme', t)
-  el.classList.toggle('dark', t === 'dark')
+  document.documentElement.setAttribute('data-theme', t)
+  document.documentElement.classList.toggle('dark', t === 'dark')
 }
 
 function syncDom(dir: 'rtl' | 'ltr', lang: Language) {

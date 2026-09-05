@@ -4,7 +4,7 @@ nav:
 
 hero:
   name: محمدامین سیمیاری
-  role: برنامه‌نویس فرانت‌اند
+  role: مهندس فرانت‌اند
   description: .Vue.js و Tailwind CSS پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با
   buttons:
     projects: مشاهده پروژه‌ها
@@ -19,7 +19,7 @@ skillsList:
   - name: JavaScript
     icon: /icons/js.svg
   - name: TypeScript
-    icon: /icons/typpescipt.svg
+    icon: /icons/typescript.svg
   - name: Vue.js
     icon: /icons/Vue.svg
   - name: HTML5
