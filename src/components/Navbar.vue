@@ -87,6 +87,8 @@ const base = import.meta.env.BASE_URL
   font-size: 12px;
   font-weight: 600;
   color: #ffffff;
+  text-align: center;
+  line-height: 32px;
 }
 
 .theme-toggle {

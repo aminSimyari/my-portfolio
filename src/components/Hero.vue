@@ -93,7 +93,7 @@ const avatarSrc = import.meta.env.BASE_URL + 'images/avatar.webp'
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 100px;
+  margin-top: 32px;
 }
 
 .btn {
@@ -157,7 +157,7 @@ const avatarSrc = import.meta.env.BASE_URL + 'images/avatar.webp'
 
   .hero-buttons {
     gap: 40px;
-    margin-top: 150px;
+    margin-top: 40px;
   }
 
   .btn {
