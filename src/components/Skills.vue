@@ -6,7 +6,7 @@
       <div class="skills-grid">
         <div v-for="skill in content.skillsList" :key="skill.name" class="skill-card">
           <img
-            :src="skill.icon"
+            :src="base + skill.icon"
             :alt="skill.name"
             class="skill-icon"
             width="32"
@@ -25,6 +25,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content } = usePortfolio()
+const base = import.meta.env.BASE_URL
 </script>
 
 <style scoped>

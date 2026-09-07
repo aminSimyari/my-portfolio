@@ -17,48 +17,48 @@ sections:
 
 skillsList:
   - name: JavaScript
-    icon: /icons/js.svg
+    icon: icons/js.svg
   - name: TypeScript
-    icon: /icons/typescript.svg
+    icon: icons/typescript.svg
   - name: Vue.js
-    icon: /icons/Vue.svg
+    icon: icons/Vue.svg
   - name: HTML5
-    icon: /icons/html icon.svg
+    icon: icons/html icon.svg
   - name: Tailwind CSS
-    icon: /icons/tailwind.svg
+    icon: icons/tailwind.svg
   - name: CSS3
-    icon: /icons/css.svg
+    icon: icons/css.svg
   - name: Git
-    icon: /icons/git.svg
+    icon: icons/git.svg
   - name: Vite
-    icon: /icons/vite.svg
+    icon: icons/vite.svg
   - name: GitHub
-    icon: /icons/github.svg
+    icon: icons/github.svg
 
 projectsList:
   - id: map
     title: نقشه
-    image: /images/map.png
+    image: images/map.png
     github: https://github.com/aminSimyari/map
   - id: notebook
     title: یادداشت
-    image: /images/notebook.png
+    image: images/notebook.png
     github: https://github.com/aminSimyari/notebook
   - id: todo
     title: To Do
-    image: /images/todo.png
+    image: images/todo.png
     github: https://github.com/aminSimyari/todo
   - id: drumkit
     title: درام کیت
-    image: /images/drumkit.png
+    image: images/drumkit.png
     github: https://github.com/aminSimyari/drumkit
   - id: clock
     title: ساعت
-    image: /images/clock.png
+    image: images/clock.png
     github: https://github.com/aminSimyari/clock
   - id: guess
     title: حدس شماره
-    image: /images/guess.png
+    image: images/guess.png
     github: https://github.com/aminSimyari/guess
 
 contactLinks:

@@ -67,9 +67,10 @@ import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content } = usePortfolio()
 
-const emailIcon = '/icons/gmail f.svg'
-const telegramIcon = '/icons/tel f.svg'
-const githubIcon = '/icons/github f.svg'
+const base = import.meta.env.BASE_URL
+const emailIcon = base + 'icons/gmail f.svg'
+const telegramIcon = base + 'icons/tel f.svg'
+const githubIcon = base + 'icons/github f.svg'
 </script>
 
 <style scoped>

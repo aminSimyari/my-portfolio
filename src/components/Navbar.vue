@@ -18,7 +18,7 @@
           @click="toggleTheme"
         >
           <img
-            :src="isDark ? '/icons/Sun.svg' : '/icons/Moon.svg'"
+            :src="isDark ? `${base}icons/Sun.svg` : `${base}icons/Moon.svg`"
             alt=""
             class="toggle-icon"
             width="16"
@@ -35,6 +35,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content, isDark, toggleTheme, toggleLanguage } = usePortfolio()
+const base = import.meta.env.BASE_URL
 </script>
 
 <style scoped>

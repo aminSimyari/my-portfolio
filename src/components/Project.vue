@@ -15,7 +15,7 @@
           <h3 class="project-title">{{ project.title }}</h3>
           <div class="project-image">
             <img
-              :src="project.image"
+              :src="base + project.image"
               :alt="project.title"
               loading="lazy"
               decoding="async"
@@ -31,6 +31,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content } = usePortfolio()
+const base = import.meta.env.BASE_URL
 </script>
 
 <style scoped>

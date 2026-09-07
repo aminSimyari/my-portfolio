@@ -34,7 +34,7 @@
 import { usePortfolio } from '@/composables/usePortfolio'
 
 const { content, isRtl } = usePortfolio()
-const avatarSrc = '/images/avatar.jpg'
+const avatarSrc = import.meta.env.BASE_URL + 'images/avatar.jpg'
 </script>
 
 <style scoped>

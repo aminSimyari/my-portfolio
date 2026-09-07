@@ -47,7 +47,7 @@ describe('App', () => {
       const icon = themeBtn.find('.toggle-icon')
       expect(icon.exists()).toBe(true)
       const src = icon.attributes('src')
-      expect(src === '/icons/Sun.svg' || src === '/icons/Moon.svg').toBe(true)
+      expect(src?.includes('/icons/Sun.svg') || src?.includes('/icons/Moon.svg')).toBe(true)
     })
 
     it('starts in light mode by default', () => {
@@ -138,7 +138,7 @@ describe('App', () => {
       const wrapper = mountApp()
       const img = wrapper.find('.avatar-img')
       expect(img.exists()).toBe(true)
-      expect(img.attributes('src')).toBe('/images/avatar.jpg')
+      expect(img.attributes('src')?.includes('/images/avatar.jpg')).toBe(true)
     })
   })
 
@@ -179,7 +179,7 @@ describe('App', () => {
       const wrapper = mountApp()
       const icons = wrapper.findAll('.skill-icon')
       expect(icons.length).toBe(9)
-      expect(icons[0]?.attributes('src')).toBe('/icons/js.svg')
+      expect(icons[0]?.attributes('src')?.includes('/icons/js.svg')).toBe(true)
     })
   })
 
