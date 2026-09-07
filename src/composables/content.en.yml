@@ -38,27 +38,27 @@ skillsList:
 projectsList:
   - id: map
     title: Map
-    image: images/map.png
+    image: images/map.webp
     github: https://github.com/aminSimyari/map
   - id: notebook
     title: Notebook
-    image: images/notebook.png
+    image: images/notebook.webp
     github: https://github.com/aminSimyari/notebook
   - id: todo
     title: To Do List
-    image: images/todo.png
+    image: images/todo.webp
     github: https://github.com/aminSimyari/todo
   - id: drumkit
     title: Drumkit
-    image: images/drumkit.png
+    image: images/drumkit.webp
     github: https://github.com/aminSimyari/drumkit
   - id: clock
     title: Clock
-    image: images/clock.png
+    image: images/clock.webp
     github: https://github.com/aminSimyari/clock
   - id: guess
     title: Guess My Number
-    image: images/guess.png
+    image: images/guess.webp
     github: https://github.com/aminSimyari/guess
 
 contactLinks:

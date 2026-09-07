@@ -138,7 +138,7 @@ describe('App', () => {
       const wrapper = mountApp()
       const img = wrapper.find('.avatar-img')
       expect(img.exists()).toBe(true)
-      expect(img.attributes('src')?.includes('/images/avatar.jpg')).toBe(true)
+      expect(img.attributes('src')?.includes('/images/avatar.webp')).toBe(true)
     })
   })
 

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/my-portfolio/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://github.githubassets.com" crossorigin />
+    <link rel="dns-prefetch" href="https://github.githubassets.com" />
     <title>Amin Simyari</title>
     <meta name="description" content="Frontend Developer Portfolio - Vue.js & Tailwind CSS" />
     <link rel="preload" as="font" type="font/woff2" href="/my-portfolio/fonts/Inter/Inter-Regular.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="/my-portfolio/fonts/Vazirmatn/Vazirmatn-Regular.woff2" crossorigin />
-    <link rel="preload" as="image" href="/my-portfolio/images/avatar.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="/my-portfolio/images/avatar.webp" fetchpriority="high" />
     <style>
       @font-face {
         font-family: 'Inter';
@@ -63,6 +65,6 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts" defer></script>
   </body>
 </html>
