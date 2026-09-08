@@ -93,16 +93,16 @@ const githubIcon = base + 'icons/github f.svg'
 }
 
 .contact-container {
-  display: inline-flex;
-  flex-wrap: wrap;        
-  max-width: 100%;        
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 20px;
-  background-color: var(--bg-secondary);
-  border-radius: 10px;
-  direction: ltr;
+display: inline-flex;
+max-width: 100%;    
+justify-content: center;
+align-items: center;
+gap: 16px;
+padding: 12px 20px;
+background-color: var(--bg-secondary);
+border-radius: 10px;
+direction: ltr;
+    
 }
 
 .contact-item {
