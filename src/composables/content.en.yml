@@ -5,7 +5,7 @@ nav:
 hero:
   name: MohammadAmin Simyari
   role: Frontend Engineer
-  description: Implementation and development of modern, clean, and optimized user interfaces using Vue.js and Tailwind CSS.
+  description: "Implementation and development of modern, clean, and optimized user interfaces using <span class='ltr-text'>Vue.js</span> and <span class='ltr-text'>Tailwind CSS</span>."
   buttons:
     projects: Projects
     contact: Contact

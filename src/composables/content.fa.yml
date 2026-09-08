@@ -5,7 +5,8 @@ nav:
 hero:
   name: محمدامین سیمیاری
   role: مهندس فرانت‌اند
-  description: .Vue.js و Tailwind CSS پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با
+  description: "پیاده‌سازی و توسعه رابط‌های کاربری مدرن، تمیز و بهینه با<br><span class='ltr-text'>Vue.js</span> و <span class='ltr-text'>Tailwind CSS</span>"
+
   buttons:
     projects: مشاهده پروژه‌ها
     contact: ارتباط با من

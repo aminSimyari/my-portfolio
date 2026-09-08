@@ -4,7 +4,7 @@
       <div class="hero-content">
         <h1 class="hero-name">{{ content.hero.name }}</h1>
         <p class="hero-role">{{ content.hero.role }}</p>
-        <p class="hero-description">{{ content.hero.description }}</p>
+        <p class="hero-description" v-html="content.hero.description"></p>
       </div>
 
       <div class="hero-avatar">
@@ -87,6 +87,22 @@ const avatarSrc = import.meta.env.BASE_URL + 'images/avatar.webp'
   font-size: 13px;
   color: var(--text-primary);
   line-height: 1.6;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.hero-description :deep(.ltr-text) {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  .hero-description {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .hero-buttons {
