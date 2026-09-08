@@ -51,7 +51,7 @@ const base = import.meta.env.BASE_URL
 .navbar-inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
   height: 56px;
   display: flex;
   align-items: center;
