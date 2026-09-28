@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/my-portfolio/',
+  base: '/',
   server: {
     host: '127.0.0.1',
     port: 3000,
